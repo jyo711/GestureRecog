@@ -35,8 +35,6 @@ You may need to [generate your own frozen model](https://pythonprogramming.net/t
 - Using the Detector to Detect/Track hands
 - Thoughts on Optimizations.
 
-> P.S if you are using or have used the models provided here, feel free to reach out on twitter ([@vykthur](https://twitter.com/vykthur)) and share your work!
-
 ## Motivation - Why Track/Detect hands with Neural Networks?
 
 There are several existing approaches to tracking hands in the computer vision domain. Incidentally, many of these approaches are rule based (e.g extracting background based on texture and boundary features, distinguishing between hands and background using color histograms and HOG classifiers,) making them not very robust. For example, these algorithms might get confused if the background is unusual or in situations where sharp changes in lighting conditions cause sharp changes in skin color or the tracked object becomes occluded.(see [here for a review](https://www.cse.unr.edu/~bebis/handposerev.pdf) paper on hand pose estimation from the HCI perspective)
